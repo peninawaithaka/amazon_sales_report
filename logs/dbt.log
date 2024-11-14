@@ -1,0 +1,106 @@
+[0m23:37:59.773732 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105152120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107103d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107103ed0>]}
+
+
+============================== 23:37:59.776082 | cb3cda9b-c8fb-42a6-bf09-65bbd9d56172 ==============================
+[0m23:37:59.776082 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:37:59.776347 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/peninawaithaka/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:37:59.785549 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'PosixPath'.. Dictionary: {'dir': PosixPath('/Users/peninawaithaka/.dbt')}
+[0m23:37:59.785902 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m23:39:36.043515 [debug] [MainThread]: Starter project path: /Users/peninawaithaka/Desktop/projects/amazon_sales_report/dbt-env/lib/python3.13/site-packages/dbt/include/starter_project
+[0m23:39:36.060455 [info ] [MainThread]: 
+Your new dbt project "dbt_sales" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:39:36.060984 [info ] [MainThread]: Setting up your profile.
+[0m23:51:24.714308 [info ] [MainThread]: Profile dbt_sales written to /Users/peninawaithaka/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:51:24.753529 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 805.05884, "process_user_time": 1.044053, "process_kernel_time": 0.383687, "process_mem_max_rss": "194625536", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:51:24.755153 [debug] [MainThread]: Command `dbt init` succeeded at 23:51:24.754820 after 805.06 seconds
+[0m23:51:24.756015 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d648e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e943b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d867240>]}
+[0m23:51:24.756572 [debug] [MainThread]: Flushing usage events
+[0m23:51:41.586477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a02120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10634fd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10634fed0>]}
+
+
+============================== 23:51:41.588473 | 6552c68e-b8f9-4402-b027-176617591864 ==============================
+[0m23:51:41.588473 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:51:41.588723 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/peninawaithaka/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:51:41.598645 [info ] [MainThread]: dbt version: 1.8.7
+[0m23:51:41.598854 [info ] [MainThread]: python version: 3.13.0
+[0m23:51:41.598972 [info ] [MainThread]: python path: /Users/peninawaithaka/Desktop/projects/amazon_sales_report/dbt-env/bin/python3.13
+[0m23:51:41.599077 [info ] [MainThread]: os info: macOS-15.0.1-arm64-arm-64bit-Mach-O
+[0m23:51:42.261935 [info ] [MainThread]: Using profiles dir at /Users/peninawaithaka/.dbt
+[0m23:51:42.262170 [info ] [MainThread]: Using profiles.yml file at /Users/peninawaithaka/.dbt/profiles.yml
+[0m23:51:42.262285 [info ] [MainThread]: Using dbt_project.yml file at /Users/peninawaithaka/Desktop/projects/amazon_sales_report/dbt_project.yml
+[0m23:51:42.262384 [info ] [MainThread]: adapter type: bigquery
+[0m23:51:42.262473 [info ] [MainThread]: adapter version: 1.8.3
+[0m23:51:42.262568 [info ] [MainThread]: Configuration:
+[0m23:51:42.262656 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:51:42.262740 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:51:42.262826 [info ] [MainThread]: Required dependencies:
+[0m23:51:42.262937 [debug] [MainThread]: Executing "git --help"
+[0m23:51:42.277012 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:51:42.277528 [debug] [MainThread]: STDERR: "b''"
+[0m23:51:42.277663 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:51:42.277797 [info ] [MainThread]: Connection:
+[0m23:51:42.277960 [info ] [MainThread]:   method: oauth
+[0m23:51:42.278058 [info ] [MainThread]:   database: dbt-sales-441720
+[0m23:51:42.278149 [info ] [MainThread]:   execution_project: dbt-sales-441720
+[0m23:51:42.278241 [info ] [MainThread]:   schema: online_sales
+[0m23:51:42.278328 [info ] [MainThread]:   location: US
+[0m23:51:42.278418 [info ] [MainThread]:   priority: interactive
+[0m23:51:42.278507 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m23:51:42.278595 [info ] [MainThread]:   impersonate_service_account: None
+[0m23:51:42.278684 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m23:51:42.278769 [info ] [MainThread]:   job_retries: 1
+[0m23:51:42.278857 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m23:51:42.278943 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m23:51:42.279028 [info ] [MainThread]:   timeout_seconds: 300
+[0m23:51:42.279110 [info ] [MainThread]:   client_id: None
+[0m23:51:42.279191 [info ] [MainThread]:   token_uri: None
+[0m23:51:42.279276 [info ] [MainThread]:   dataproc_region: None
+[0m23:51:42.279357 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m23:51:42.279455 [info ] [MainThread]:   gcs_bucket: None
+[0m23:51:42.279535 [info ] [MainThread]:   dataproc_batch: None
+[0m23:51:42.279814 [info ] [MainThread]: Registered adapter: bigquery=1.8.3
+[0m23:51:42.356337 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m23:51:42.356630 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:51:45.386742 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m23:51:45.388651 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:51:45.390042 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:51:45.390625 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/peninawaithaka/Desktop/projects/amazon_sales_report/dbt_project.yml> not found
+
+[0m23:51:45.391119 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:51:45.394756 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 3.832839, "process_user_time": 0.73979, "process_kernel_time": 0.190182, "process_mem_max_rss": "194510848", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:51:45.396832 [debug] [MainThread]: Command `dbt debug` failed at 23:51:45.395777 after 3.83 seconds
+[0m23:51:45.397512 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:51:45.398041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11de3f950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11deb1490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11dfd47c0>]}
+[0m23:51:45.398935 [debug] [MainThread]: Flushing usage events
