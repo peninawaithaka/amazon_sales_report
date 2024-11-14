@@ -1,4 +1,4 @@
-### Analyzing amazon sales using AWS services
+## Project Details
 
-* S3
-* AWS Lambda
+* Using BigQuery and DBT to transform data from raw files to final tables
+
