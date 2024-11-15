@@ -1,4 +1,5 @@
-## Project Details
+## Data Engineering Project Details
 
-* Using BigQuery and DBT to transform data from raw files to final tables
+* Load File into bigquery.
+* Transform using DBT
 
